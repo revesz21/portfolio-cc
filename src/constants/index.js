@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  apple,
+  cnw,
+  elte,
+  hedon,
   carrent,
   jobit,
   tripguide,
@@ -114,7 +114,7 @@ const experiences = [
   {
     title: "E-Learning Architect",
     company_name: "CNW Zrt. · Part-time",
-    icon: starbucks,
+    icon: cnw,
     iconBg: "#383E56",
     date: "Jan 2021 - July 2021",
     points: [
@@ -127,7 +127,7 @@ const experiences = [
   {
     title: "Salesperson",
     company_name: "iSTYLE Hungary · Part-time",
-    icon: tesla,
+    icon: apple,
     iconBg: "#E6DEDD",
     date: "July 2020 - Jan 2021",
     points: [
@@ -139,7 +139,7 @@ const experiences = [
   {
     title: "Bartender",
     company_name: "Hedon Brewery · Part-time",
-    icon: shopify,
+    icon: hedon,
     iconBg: "#383E56",
     date: "Sep 2019 - Jul 2020",
     points: [
@@ -152,7 +152,7 @@ const experiences = [
   {
     title: "Eötvös Loránd University",
     company_name: "BSc in Economics",
-    icon: meta,
+    icon: elte,
     iconBg: "#383E56",
     date: "Sep 2019 - 2023",
     points: [
