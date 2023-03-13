@@ -25,6 +25,7 @@ import apple from "./company/apple.png";
 import cnw from "./company/cnw.png";
 import elte from "./company/elte.png";
 import hedon from "./company/hedon.png";
+import codecool from "./company/codecoolprpl.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,6 +55,7 @@ export {
   threejs,
   apple,
   cnw,
+  codecool,
   elte,
   hedon,
   carrent,

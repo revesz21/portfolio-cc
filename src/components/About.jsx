@@ -47,7 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       In addition to my technical skills, I am fluent in English, Hungarian, and have advanced knowledge of German. My internship experience includes client meetings and project discussions. I’m a good team-player, I value empathy and clear communication, but also have the ability to work independently. In my free time, I enjoy outdoor activities such as driving, nature walks, have a passion for running, working out and I have been working with horses since a young age. My interests also include photography, films and video games. 
+       As a recent graduate of CodeCool, I have developed my skills in a project-based learning environment, working in agile sprints and utilizing various tech stacks to build applications. Throughout my journey, I was fortunate to have been mentored by accomplished professionals in the field, providing me with invaluable guidance and insight into the industry. With a strong foundation in software development and a passion for learning, I am eager to embark on my next challenge.
+       In addition to my technical skills, I am fluent in English, Hungarian, and have advanced knowledge of German. I am a good team-player, I value empathy and clear communication, but also have the ability to work independently.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

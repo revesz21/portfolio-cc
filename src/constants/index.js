@@ -17,6 +17,7 @@ import {
   docker,
   apple,
   cnw,
+  codecool,
   elte,
   hedon,
   carrent,
@@ -111,6 +112,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "CodeCool",
+    company_name: "Full-Stack Developer student",
+    icon: codecool,
+    iconBg: "#383E56",
+    date: "Jun 2022 - May 2023",
+    points: [
+      "CodeCool is an immersive bootcamp that offers a project-based approach to learning software development skills.",
+      "Throughout the program, students work in agile sprints and use various tech stacks to develop real-world applications.",
+      "The curriculum is designed to simulate the fast-paced and collaborative environment of the tech industry, providing students with practical experience that prepares them for careers in the field.",
+    ],
+  },
   {
     title: "E-Learning Architect",
     company_name: "CNW Zrt. · Part-time",
