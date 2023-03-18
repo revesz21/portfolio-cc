@@ -23,6 +23,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  artur,
 
 } from "../assets";
 
@@ -179,46 +180,46 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Testimonal 1",
-    name: "Mentor",
+      "Throughout the past few months I've seen how Péter worked individually and in a group setting. In his personal work, he is persistent and highly values a good user experience. He likes playing with design and has made beautiful frontends in several projects. In all of our interactions he has been friendly, and seeing him work in a group he has been cooperative and humble.",
+    name: "Artúr Kovács",
     designation: "Mentor",
-    company: "CC",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "CodeCool",
+    image: artur,
   },
-  {
-    testimonial:
-      "Testimonal 2",
-    name: "Mentor",
-    designation: "Mentor",
-    company: "CC",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Testimonal 3",
-    name: "Lead Dev",
-    designation: "Lead Dev",
-    company: "CC",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "Testimonal 2",
+  //   name: "Mentor",
+  //   designation: "Mentor",
+  //   company: "CC",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "Testimonal 3",
+  //   name: "Lead Dev",
+  //   designation: "Lead Dev",
+  //   company: "CC",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Java Text RPG",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "JAVA",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JAVA",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JAVA",
         color: "pink-text-gradient",
       },
     ],
@@ -226,20 +227,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Ai Image Generator",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "OpenAI's DALL-E model",
         color: "pink-text-gradient",
       },
     ],
@@ -247,20 +248,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Twitter clone 'Bitter'",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
