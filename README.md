@@ -1,4 +1,6 @@
+It is deployed on this address: https://reveszpeter.com
 
+Most of the 3D technologies listed below are ones I am interested in, but was just trying out for the first time.
 - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
 - React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
 - TailwindCSS - a popular utility-first CSS styling framework
