@@ -15,13 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  apple,
+  cnw,
+  codecool,
+  elte,
+  hedon,
+  artur,
 
 } from "../assets";
 
@@ -112,9 +111,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "E-Learning Architect",
+    title: "CodeCool",
+    company_name: "Full-Stack Developer student",
+    icon: codecool,
+    iconBg: "#383E56",
+    date: "Jun 2022 - May 2023",
+    points: [
+      "CodeCool is an immersive bootcamp that offers a project-based approach to learning software development skills.",
+      "Throughout the program, students work in agile sprints and use various tech stacks to develop real-world applications.",
+      "The curriculum is designed to simulate the fast-paced and collaborative environment of the tech industry, providing students with practical experience that prepares them for careers in the field.",
+    ],
+  },
+  {
+    title: "E-Learning Specialist",
     company_name: "CNW Zrt. · Part-time",
-    icon: starbucks,
+    icon: cnw,
     iconBg: "#383E56",
     date: "Jan 2021 - July 2021",
     points: [
@@ -127,7 +138,7 @@ const experiences = [
   {
     title: "Salesperson",
     company_name: "iSTYLE Hungary · Part-time",
-    icon: tesla,
+    icon: apple,
     iconBg: "#E6DEDD",
     date: "July 2020 - Jan 2021",
     points: [
@@ -139,7 +150,7 @@ const experiences = [
   {
     title: "Bartender",
     company_name: "Hedon Brewery · Part-time",
-    icon: shopify,
+    icon: hedon,
     iconBg: "#383E56",
     date: "Sep 2019 - Jul 2020",
     points: [
@@ -152,7 +163,7 @@ const experiences = [
   {
     title: "Eötvös Loránd University",
     company_name: "BSc in Economics",
-    icon: meta,
+    icon: elte,
     iconBg: "#383E56",
     date: "Sep 2019 - 2023",
     points: [
@@ -166,92 +177,92 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Testimonal 1",
-    name: "Mentor",
+      "Throughout the past few months I've seen how Péter worked individually and in a group setting. In his personal work, he is persistent and highly values a good user experience. He likes playing with design and has made beautiful frontends in several projects. In all of our interactions he has been friendly, and seeing him work in a group he has been cooperative and humble.",
+    name: "Artúr Kovács",
     designation: "Mentor",
-    company: "CC",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "CodeCool",
+    image: artur,
   },
-  {
-    testimonial:
-      "Testimonal 2",
-    name: "Mentor",
-    designation: "Mentor",
-    company: "CC",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Testimonal 3",
-    name: "Lead Dev",
-    designation: "Lead Dev",
-    company: "CC",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "Testimonal 2",
+  //   name: "Mentor",
+  //   designation: "Mentor",
+  //   company: "CC",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "Testimonal 3",
+  //   name: "Lead Dev",
+  //   designation: "Lead Dev",
+  //   company: "CC",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Java Text RPG",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "JAVA",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JAVA",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JAVA",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Ai Image Generator",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "OpenAI's DALL-E model",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Twitter clone 'Bitter'",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "",
     source_code_link: "https://github.com/",
   },
 ];

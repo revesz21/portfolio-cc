@@ -19,10 +19,9 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Péter</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            a motivated Full-Stack developer<br className='sm:block hidden' />
-            student at CodeCool<br className='sm:block hidden' />
+            a motivated Full-Stack developer <br className='sm:block hidden' />
+            student at CodeCool. <br className='sm:block hidden' />
             <br className='sm:block hidden' />
-            I have passion for both front-end and back-end development. I stay current with design trends and continuously seek to stay ahead of the latest innovations.<br className='sm:block hidden' />
             I am dedicated to producing innovative and visually appealing designs with the highest standards of quality and attention to detail. I am committed to continual learning and personal growth to become a better software developer every day.
           </p>
         </div>
