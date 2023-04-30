@@ -20,9 +20,6 @@ import {
   codecool,
   elte,
   hedon,
-  carrent,
-  jobit,
-  tripguide,
   artur,
 
 } from "../assets";
@@ -126,7 +123,7 @@ const experiences = [
     ],
   },
   {
-    title: "E-Learning Architect",
+    title: "E-Learning Specialist",
     company_name: "CNW Zrt. · Part-time",
     icon: cnw,
     iconBg: "#383E56",
@@ -223,7 +220,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
@@ -244,7 +241,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
@@ -265,7 +262,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "",
     source_code_link: "https://github.com/",
   },
 ];

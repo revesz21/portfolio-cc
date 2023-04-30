@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -27,15 +26,10 @@ import elte from "./company/elte.png";
 import hedon from "./company/hedon.png";
 import codecool from "./company/codecoolprpl.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import artur from "./artur.jpeg";
 
 export {
   artur,
-  logo,
   backend,
   creator,
   mobile,
@@ -60,8 +54,5 @@ export {
   cnw,
   codecool,
   elte,
-  hedon,
-  carrent,
-  jobit,
-  tripguide,
+  hedon
 };
